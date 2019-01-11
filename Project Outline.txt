@@ -1,0 +1,109 @@
+Functional Requirements:
+
+-Home Page:
+
+1. Has a navbar
+2. Search for all makes, years, and types of car
+3. Has infographics and text about the company
+
+-After Searching
+
+1. Same Navbar remains
+2. Page displays a list of cars matching your search parameters
+3. Page displays filters if the user would like to change their search.
+4. Bottom Bar still remains
+
+-After Selecting Car (Rental)
+
+1. Same Navbar remains
+2. Bar that displays the information about the rental, like date, location, etc.
+3. Displays a list of features that the user can select from, or continue
+4. Bottom Navbar still remains
+
+-After Selecting Car (Buy)
+
+1. Same Navbar remains
+2. Bar the displays the information about the car, and the total price
+3. Bottom navbar still remains
+
+-Review Page
+
+1. Same Navbar remains
+2. Displays overview of your rental car, including all the features, price, and date.
+3. Have a box asking the user about the loyalty program
+4. Display a box asking for the users detailed Contact information.
+5. Display box containing the terms of the rental and other legal information.
+6. Bottom navbar remains
+
+-Checkout Page
+
+1. Same Navbar remains
+2. Box for user to enter their payment information
+3. Box to display an order summary
+4. Ask the user if they would like an eletronic reciept
+5. Finish button
+6. Bottom navbar remains
+
+-Help Page
+
+1. Same Top Navbar
+2. Display list of FAQ's as links.
+3. Clicking on a link brings you to another page containing information about the issue
+4. Same Bottom Navbar
+
+-Terms of Use Page
+
+1. Same Top Navbar
+2. Copy of the Terms'
+3. Same Bottom Navbar
+
+-Top Navbar
+
+1. Home button, always returns user to Home Page
+2. Sign In Dropdown, will change once the user has logged in 
+3. Button to change the Currency
+4. Main Dropdowns will be Rent, Buy, Locations, Help, Promotions 
+
+-Bottom Navbar
+
+1. Home Button to return user to Homepage
+2. Section about the Rentals
+3. Customer Service Section
+4. Info about company
+5. Sponsorships
+
+
+DESIGN:
+
+Potential Names:
+-Starstruck Rentals
+
+Potential Slogan:
+-"We're shooting to meet your every need"
+
+Colors:
+
+#FAED26 (Yellow)
+#46344E (Dark Brown)
+#5A5560 (Dark Gray)
+#9D8D8F (Light Gray)
+#9B786F (Brown)
+
+-Home Page
+
+1. Big Image Slider front and center
+2. Overlay with a Slogan that does not slide with the Image
+3. Interactive Infographic on Buying or Renting
+4. Interactive Infographic on Types of cars
+
+Metadata:
+
+Cars:
+
+Truck, SUV, Car, Van
+Ford, Dodge, Chevy, Honda
+4 years for each model
+Black and white for each car
+Cheap and Expensive Versions of each Car
+Mileage for each Car
+Gas Mileage for each Car
