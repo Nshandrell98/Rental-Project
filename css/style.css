@@ -21,11 +21,19 @@ video{
     color: #faed26 ;
 
 }
-
+button{
+    display: block;
+}
+.prSing{
+    color: #20363d;
+    background-color: #faed26;
+    padding: 10px;
+    text-align: center; 
+    
+}
 .slogan{
     color: #faed26;
     text-align: center;
-    /* padding-top: 50px; */
 }
 .outer-first li {
     position: relative;
@@ -36,7 +44,6 @@ video{
 
 }
 .navList li a:hover {
-    /* padding: 5px; */
     background-color: #faed26;
     box-shadow: 0  0 10px 10px #faed26;
     border-radius: 10px;
@@ -93,10 +100,10 @@ p{
     color: rgb(171, 171, 171);
 }
 .product{
-
+    margin-bottom: 100px;
 }
 .contact h3{
-    color: #FAED26;
+    color: #faed26;
     text-align: center;
 }
 .pt img{
@@ -144,16 +151,17 @@ img{
     color: #20363d;
 
 }
-@media screen and (min-width:900px){
+@media screen and (min-width:900px) and (max-width:1400px){
     .locs input{
         width: 500px;
-
+        margin-bottom: 20px;
     }
     .pt{
         width: 200px;
         padding-right: 20px;
     }
     .locs{
+        
         margin-left: 0px;
         margin-bottom: 60px;
     }
@@ -177,17 +185,36 @@ img{
         color: #20363d;
     }
 }
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1200px){
     .sbd{
         margin-left: 90px;
         margin-top: -40px;
     }
     .pi{
-        padding-left: 150px;
+        padding-left: 200px;
     }
     .pi img{
         margin-left: -10px;
     }
+    .contactLinks{
+        margin-left: 500px;
+    }
+    .locs{
+        margin-bottom: 100px;
+    }
+    .slider{
+        margin-left: 85px;
+    }
+    .prSing{
+        margin-right: 30px;
+    }
+    .prSing img{
+        margin-left: 430px;
+    }
+    .prSing button{
+        margin-left: 515px;
+    }
+
 }
 
 @media screen and (max-width: 600px){
@@ -216,6 +243,12 @@ img{
     .contactLinks a{
         align-content: center;
         margin-left: 20px;
+    }
+    .pt img{
+        margin-top: 10px;
+    }
+    .prSing img{
+        margin-left: 60px;
     }
 }
 @media screen and ( min-width:600px) {
