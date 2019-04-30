@@ -26,9 +26,10 @@ button{
 }
 .prSing{
     color: #20363d;
-    background-color: #faed26;
+    background-color: rgb(250,237,38, 0.7);
     padding: 10px;
     text-align: center; 
+    border-radius: 10px;
     
 }
 .slogan{
@@ -114,8 +115,9 @@ p{
     border-radius: 5px;
     margin: 5px;
     color: #20363d;
-    background-color: #faed26;
+    background-color: rgb(250,237,38, 0.7);
     padding-right: -20px;
+
 }
 .BTN{
     border-radius: 10px;
@@ -194,7 +196,7 @@ img{
         padding-left: 200px;
     }
     .pi img{
-        margin-left: -10px;
+        margin-left: 0px;
     }
     .contactLinks{
         margin-left: 500px;
@@ -206,6 +208,7 @@ img{
         margin-left: 85px;
     }
     .prSing{
+
         margin-right: 30px;
     }
     .prSing img{
@@ -220,6 +223,9 @@ img{
 @media screen and (max-width: 600px){
     .navList{
         display: none;
+    }
+    button{
+        margin-left: 100px;
     }
     .logo img{
         left: 130px;
@@ -249,6 +255,9 @@ img{
     }
     .prSing img{
         margin-left: 60px;
+    }
+    .prSing button{
+        margin-left: 135px;
     }
 }
 @media screen and ( min-width:600px) {
@@ -341,4 +350,5 @@ button{
     .contactLinks a{
         margin-right: 15px;
     }
+    
 }
