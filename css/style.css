@@ -250,8 +250,17 @@ img{
         align-content: center;
         margin-left: 20px;
     }
+    .pt {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+    .pot{
+        margin-top: 15px;
+    }
     .pt img{
-        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
     }
     .prSing img{
         margin-left: 60px;
