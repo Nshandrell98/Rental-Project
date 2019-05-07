@@ -29,6 +29,7 @@ button{
     background-color: rgb(250,237,38, 0.7);
     padding: 10px;
     text-align: center; 
+    margin-top: 15px;
     border-radius: 10px;
     
 }
@@ -77,8 +78,8 @@ p{
     margin-top: 60px;  
     background-color: rgb(250,237,38, 0.7);
     border-radius: 10px;
-    padding: 25px 10px 140px 10px;
-    margin-bottom: 130px;
+    padding: 25px 10px 60px 10px;
+    margin-bottom: 100px;
     margin-top: 10px;
 }
 .locs input{
@@ -153,7 +154,7 @@ img{
     color: #20363d;
 
 }
-@media screen and (min-width:900px) and (max-width:1400px){
+@media screen and (min-width:900px) and (max-width:1200px){
     .locs input{
         width: 500px;
         margin-bottom: 20px;
@@ -162,10 +163,13 @@ img{
         width: 200px;
         padding-right: 20px;
     }
+    .pt img{
+        margin-left: 100px;
+    }
     .locs{
         
         margin-left: 0px;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
     .contactLinks a{
         margin-right: 20px;
@@ -179,7 +183,7 @@ img{
     .navList{
         margin-top: 80px;   
         margin-left: 20px; 
-}
+    }
     .sbd{
         position: absolute;
         top: 350px;
@@ -188,6 +192,9 @@ img{
     }
 }
 @media screen and (min-width: 1200px){
+    .locs input {
+        width: 500px;
+    }
     .sbd{
         margin-left: 90px;
         margin-top: -40px;
@@ -200,6 +207,10 @@ img{
     }
     .contactLinks{
         margin-left: 500px;
+        
+    }
+    .contactLinks a {
+        margin-right: 20px;
     }
     .locs{
         margin-bottom: 100px;
@@ -216,6 +227,9 @@ img{
     }
     .prSing button{
         margin-left: 515px;
+    }
+    .navList{
+        margin-top: 80px;
     }
 
 }
@@ -336,6 +350,7 @@ button{
     }
     .locs{
         margin-top: -5px;
+
     }
     .navList{
         position: absolute;
@@ -358,6 +373,12 @@ button{
     }
     .contactLinks a{
         margin-right: 15px;
+    }
+    .pt{
+        margin-right: 20px;
+    }
+    .pt img{
+        margin-left: 225px;
     }
     
 }
