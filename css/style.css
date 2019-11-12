@@ -228,6 +228,9 @@ img{
     .prSing button{
         margin-left: 515px;
     }
+    .navList li{
+        margin-left: 15px;
+    }
     .navList{
         margin-top: 80px;
     }
