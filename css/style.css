@@ -9,6 +9,9 @@
 video{
     z-index: -1;
 }
+img{
+    border-radius: 10px;
+}
 .outer-first {
     width: 100%;
     background-color: white;
