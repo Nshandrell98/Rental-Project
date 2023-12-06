@@ -114,13 +114,7 @@ p{
 .pt img{
     margin-left: 30px;
 }
-.pt a {
-    padding: 10px;
-    margin: 5px auto 5px auto;
-    background-color: #faed26;
-    color: #363636;
-    border-radius: 10%;
-}
+
 .pt{
     text-align: center;
     border-radius: 5px;
@@ -130,6 +124,15 @@ p{
     padding-right: -20px;
 
 }
+
+.pt a {
+    padding: 10px;
+    margin: 5px auto 5px auto;
+    background-color: #faed26;
+    color: #363636;
+    border-radius: 10%;
+}
+
 .BTN{
     border-radius: 10px;
     background-color: rgb(129, 122, 122);
